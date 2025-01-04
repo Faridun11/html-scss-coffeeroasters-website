@@ -1,0 +1,524 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 250vh;
+    margin: auto;
+}
+
+header .nav {
+    width: 100%;
+    height: 100vh;
+    background-color: #e4b886;
+    padding: 1.2rem 0.5rem;
+    margin: auto;
+    display: block;
+}
+
+header .nav nav {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header .nav nav ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+header .nav nav ul li .img11 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(./Combined\ Shape\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0.3rem 0 0 0.65rem;
+}
+
+header .nav nav ul li a {
+    display: flex;
+    text-decoration: none;
+    gap: 0.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.75rem;
+    color: #555555;
+    font-weight: 600;
+}
+
+header .nav nav ul.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav nav ul.right li a {
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition-duration: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav nav ul.right li a:hover {
+    color: #0A775F;
+    transition-duration: .5s;
+    font-size: 1rem;
+}
+
+header .nav aside {
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+    display: flex;
+    padding: 1.5rem 0 0 0;
+}
+
+header .nav .box1 {
+    width: 20rem;
+    height: 15rem;
+    position: absolute;
+    margin: auto;
+    top: 10rem;
+    left: 6rem;
+}
+
+header .nav .box1 h1 {
+    font-size: 2.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+header .nav .box1 p {
+    font-size: 0.85rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+    letter-spacing: 0.1rem;
+}
+
+header .nav .box2 {
+    width: 29rem;
+    height: 22.5rem;
+    position: absolute;
+    top: 5rem;
+    right: 0.55rem;
+    border-radius: 0.1rem;
+    background-image: url(./Rectangle\ 679.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: .5s;
+}
+
+header .nav .box2:hover {
+    box-shadow: 0.35rem 0.35rem 0.25rem #775f0a;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+header .nav .box3 {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 24.5rem;
+    background-image: url(./image\ 40.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .futer {
+    width: 100%;
+    height: 95vh;
+    margin: 1rem auto;
+    background-color: #0A775F;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    position: relative;
+}
+
+header .futer .b {
+    width: 42.5rem;
+    height: 5rem;
+    background-image: url(./Group\ 3633.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3.5rem;
+    left: 4.3rem;
+}
+
+header .futer .div {
+    width: 60rem;
+    height: 14.5rem;
+    margin: 5.8rem auto;
+    display: flex;
+}
+
+header .futer .div .div1 {
+    width: 16rem;
+    height: 14.5rem;
+    margin: 0 2rem;
+    background-color: white;
+    padding: 1rem 0.75rem;
+    transition-duration: .3s;
+}
+
+header .futer .div .div1:hover {
+    box-shadow: 0.3rem 0.3rem 0.2rem #C99B67;
+    transition-duration: .3;
+}
+
+header .futer .div .div1 h2 {
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(94, 94, 94);
+}
+
+header .futer .div .div1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 3.25rem 0 0.5rem 0;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+header .futer .div .div1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75rem;
+    text-align: start;
+    color: black;
+}
+
+header .footer {
+    width: 100%;
+    height: 410vh;
+    background-color: #e6e6e6;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+header .footer .a {
+    width: 5rem;
+    height: 8.5rem;
+    background-image: url(./Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 23rem;
+    right: 0;
+}
+
+header .footer .b {
+    width: 4.75rem;
+    height: 12.5rem;
+    background-image: url(./Fill-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 19rem;
+    right: 0rem;
+}
+
+header .footer .d {
+    width: 10rem;
+    height: 20rem;
+    background-image: url(./Vector1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50rem;
+    left: 0;
+}
+
+header .footer .e {
+    width: 12.5rem;
+    height: 15rem;
+    background-image: url(./Vector2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 98rem;
+    left: 0;
+}
+
+header .footer .footer1 {
+    width: 15rem;
+    height: 20rem;
+    display: block;
+}
+
+header .footer .footer1 .text {
+    width: 15rem;
+    height: 4rem;
+    margin: auto;
+}
+
+header .footer .footer1 .text h1 {
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+header .footer .footer1 .text .f {
+    width: 12.5rem;
+    height: 0.15rem;
+    background-image: url(./Vector\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .footer2 {
+    width: 45rem;
+    height: 400vh;
+    display: block;
+    margin: auto;
+    padding: 1.5rem 2.5rem;
+}
+
+header .footer2 .img {
+    width: 39.5rem;
+    height: 20rem;
+    margin: 0 auto 2.5rem;
+    text-align: start;
+    padding: 0 1rem;
+}
+
+header .footer2 .img h1 {
+    font-size: 1.85rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header .footer2 .img .card {
+    width: 37.5rem;
+    height: 37rem;
+    margin: auto;
+    padding: 1.2rem 0rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+header .footer2 .img .card .card1 {
+    width: 12.5rem;
+    height: 13.5rem;
+    background-color: #68a095;
+    padding: 2rem 1.5rem;
+    transition-duration: .6s;
+}
+
+header .footer2 .img .card .card1:hover {
+    background-color: #0A775F;
+    color: whitesmoke;
+    transition-duration: .7s;
+    box-shadow: 0.45rem 0.45rem 0.3rem #68a095;
+}
+
+header .footer2 .img .card .card1 h1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .footer2 .img .card .card1 p {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.5rem 0;
+}
+
+header .footer2 .img .card .card2 {
+    width: 12.5rem;
+    height: 13.5rem;
+    background-color: #0A775F;
+    padding: 2rem 1.5rem;
+    transition-duration: .6s;
+}
+
+header .footer2 .img .card .card2:hover {
+    background-color: #68a095;
+    transition-duration: .6s;
+    color: black;
+    box-shadow: 0.4rem 0.4rem 0.4rem #0A775F;
+}
+
+header .footer2 .img .card .card2 h1 {
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+}
+
+header .footer2 .img .card .card2 p {
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+header .rasm {
+    width: 100%;
+    height: 70vh;
+    background-color: #e6e6e6;
+}
+
+header .rasm .rasm7 {
+    width: 39.5rem;
+    height: 14rem;
+    margin: 0 0 0 21rem;
+    text-align: start;
+    background-color: #d19a5c;
+    padding: 2rem 1.5rem;
+    display: block;
+    transition-duration: .1s;
+}
+
+header .rasm .rasm7 h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05rem;
+    margin: 1rem 0 1rem 0;
+}
+
+header .rasm .rasm7 h2 {
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+}
+
+header .rasm .rasm7 h2 span {
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: black;
+}
+
+header .rasm a button {
+    width: 12.5rem;
+    height: 2.25rem;
+    margin: 1.5rem 0 0 47.5rem;
+    border: none;
+    background-color: #0A775F;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 1.15rem;
+    color: white;
+    transition-duration: .6s;
+}
+
+header .rasm a button:hover {
+    color: #0A775F;
+    box-shadow: 0.2rem 0.2rem 0.1rem #0A775F;
+    background-color: #c2ebe3;
+    transition-duration: .6s;
+    cursor: pointer;
+}
+
+header .footer5 {
+    width: 100%;
+    height: 12vh;
+    margin: auto;
+    background-color: #e9bd8c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0.75rem;
+}
+
+header .footer5 .Start {
+    display: flex;
+    gap: 0.4rem;
+}
+
+header .footer5 .Start .v {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(./Combined\ Shape\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .footer5 .Start a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #555555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .footer5 .top {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+
+header .footer5 .top a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .footer5 .top a:hover {
+    color: #0A775F;
+    transition-duration: .5s;
+    font-size: 0.76rem;
+}
+
+header .footer5 .end {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+header .footer5 .end i:hover {
+    color: #0A775F;
+    transition-duration: .5s;
+    font-size: 1.3rem;
+}
+
+.up {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #7a6614;
+    padding: 0.8rem 0.9rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.5rem;
+}

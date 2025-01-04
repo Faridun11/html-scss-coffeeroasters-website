@@ -1,0 +1,692 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 250vh;
+    margin: auto;
+}
+
+header .nav {
+    width: 100%;
+    height: 100vh;
+    background-color: #e8be8f;
+    padding: 1.2rem 0.5rem;
+    margin: auto;
+    display: block;
+}
+
+header .nav nav {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul {
+    display: flex;
+}
+
+header .nav nav ul li {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+header .nav nav ul li .img11 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(./Combined\ Shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0.35rem 0 0 0.65rem;
+}
+
+header .nav nav ul li a {
+    display: flex;
+    text-decoration: none;
+    gap: 0.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.75rem;
+    color: #555555;
+    font-weight: 600;
+}
+
+header .nav nav ul.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav nav ul.right li a {
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition-duration: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav nav ul.right li a:hover {
+    color: #0A775F;
+    font-size: 0.99rem;
+    transition-duration: .5s;
+}
+
+header .nav aside {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    padding: 3.5rem 0 0 0;
+    margin: auto;
+}
+
+header .nav .box1 {
+    width: 25rem;
+    height: 15rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 7rem;
+}
+
+header .nav .box1 h1 {
+    font-size: 2.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header .nav .box1 p {
+    font-size: 0.85rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0.5rem 0 0 0;
+    letter-spacing: 0.05rem;
+}
+
+header .nav .box1 button {
+    width: 10rem;
+    height: 2rem;
+    margin: 1.75rem 0 0 1.5rem;
+    border: none;
+    border-radius: 0.95rem;
+    background-color: #0A775F;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    justify-content: center;
+    transition-duration: .5s;
+}
+
+header .nav .box1 button:hover {
+    transition-duration: .5s;
+    color: #0A775F;
+    background-color: white;
+    box-shadow: 0 0 0.5rem 0.15rem #0A775F;
+    cursor: pointer;
+}
+
+header .nav .box2 {
+    width: 23.5rem;
+    height: 23rem;
+    position: absolute;
+    top: 5rem;
+    right: 0.55rem;
+    border-radius: 0.1rem;
+    background-image: url(./Rectangle\ 679.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition-duration: .5s;
+}
+
+header .nav .box3 {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 18rem;
+    background-image: url(./image\ 40.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+header .nav .box2:hover {
+    transition-duration: .5s;
+    box-shadow: 0.2rem 0.2rem 0.2rem #0A775F;
+}
+
+header .section {
+    width: 100%;
+    height: 346vh;
+    margin: auto;
+}
+
+header .section .aside {
+    width: 100%;
+    height: 340vh;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+header .section .aside h1 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05rem;
+    margin: 0.5rem 0 0 0;
+    padding: 1rem 0 0 0;
+}
+
+header .section .aside .class {
+    width: 12rem;
+    height: 15rem;
+    background-image: url(./leaves-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+}
+
+header .section .aside .class1 {
+    width: 7.5rem;
+    height: 15.5rem;
+    background-image: url(./Fill-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 44rem;
+    right: 0;
+}
+
+header .section .aside .class2 {
+    width: 7.5rem;
+    height: 15rem;
+    background-image: url(./leaves-left-light.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 70rem;
+    left: 0;
+}
+
+header .section .aside .main {
+    width: 60rem;
+    height: 22.5rem;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+}
+
+header .section .aside .main .img {
+    width: 25rem;
+    height: 21rem;
+    background-image: url(./kopi4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 4.5rem;
+}
+
+header .section .aside .main .text {
+    width: 22.5rem;
+    height: 7.5rem;
+    position: absolute;
+    padding: 1rem;
+    top: 8.5rem;
+    left: 32.5rem;
+    text-align: start;
+}
+
+header .section .aside .main .text h1 {
+    font-size: 1.5rem;
+    text-align: start;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header .section .aside .main .text p {
+    font-size: 1rem;
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0.9rem 0 0 0;
+}
+
+header .section .aside .main .text1 {
+    width: 22.5rem;
+    height: 7.5rem;
+    margin: 7.5rem 7.5rem;
+}
+
+header .section .aside .main .text1 h1 {
+    font-size: 1.5rem;
+    text-align: start;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header .section .aside .main .text1 p {
+    font-size: 1rem;
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0.9rem 0 0 0;
+}
+
+header .section .aside .main .img1 {
+    width: 20rem;
+    height: 18.5rem;
+    background-image: url(./kopi1\ copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2rem;
+    left: 33.75rem;
+}
+
+header .section .aside .main .text2 {
+    width: 40rem;
+    height: 7.5rem;
+    margin: 7rem 7.5rem;
+    text-align: start;
+}
+
+header .section .aside .main .img2 {
+    width: 40rem;
+    height: 19.5rem;
+    background-image: url(./kopi3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 1rem 0 0 4.5rem;
+}
+
+
+header .section .aside .main .text2 h1 {
+    font-size: 1.5rem;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+header .section .aside .main .text2 p {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0.9rem 0 0 0;
+}
+
+
+header .section .aside .main .text3 {
+    width: 45rem;
+    height: 7.5rem;
+    margin: 7.5rem 5rem 0 9rem;
+    text-align: start;
+}
+
+header .section .aside .main .text3 h1 {
+    font-size: 1.5rem;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+header .section .aside .main .text3 p {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0.9rem 0 0 0;
+}
+
+header .section .aside .main .img3 {
+    width: 45rem;
+    height: 18.5rem;
+    background-image: url(./kopi2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5rem;
+    margin: 1.5rem 3.5rem 0 0;
+}
+
+header .footer {
+    width: 100%;
+    height: 250vh;
+    margin: -1.5rem auto 0;
+    display: block;
+}
+
+header .footer .futer1 {
+    width: 1260px;
+    height: 140vh;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+header .footer .futer1 .color {
+    width: 63rem;
+    height: 100vh;
+    background-color: #C99B67;
+    padding: 1.75rem;
+    margin: auto;
+    position: relative;
+}
+
+header .footer .futer1 .color h1 {
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif0;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+header .footer .futer1 .color p {
+    font-size: 0.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif0;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem;
+}
+
+header .footer .futer1 .color .group {
+    width: 6.5rem;
+    height: 6rem;
+    background-image: url(./Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.9rem;
+    top: 7rem;
+}
+
+header .footer .futer1 .color .color1 {
+    width: 61.5rem;
+    height: 110vh;
+    padding: 2.5rem 0.5rem 0;
+    margin: auto;
+    display: flex;
+    gap: 1.75rem;
+}
+
+header .footer .futer1 .color .color1 .leter {
+    width: 18.4rem;
+    height: 29rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header .footer .futer1 .color .color1 .leter .png {
+    width: 18.45rem;
+    height: 21.3rem;
+    background-image: url(./Rectangle\ 681.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition-duration: .5s;
+}
+
+header .footer .futer1 .color .color1 .leter .png:hover {
+    box-shadow: 0.2rem 0.2rem 0.2rem #0A775F;
+    transition-duration: .5s;
+}
+
+header .footer .futer1 .color .color1 .leter .write {
+    width: 18.5rem;
+    height: 7.5rem;
+    text-align: start;
+    padding: 1rem 0.25rem 0;
+}
+
+header .footer .futer1 .color .color1 .leter .write h1 {
+    font-size: 1.15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: black;
+}
+
+header .footer .futer1 .color .color1 .leter .write p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: black;
+    text-align: start;
+    padding: 0.35rem 0.25rem 0;
+}
+
+header .footer .futer1 .color .color1 .leter .png1 {
+    width: 18.45rem;
+    height: 21.3rem;
+    background-image: url(./Rectangle\ 682.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition-duration: .5s;
+}
+
+header .footer .futer1 .color .color1 .leter .png1:hover {
+    box-shadow: 0.2rem 0.2rem 0.2rem #0A775F;
+    transition-duration: .5s;
+}
+
+header .footer .futer1 .color .color1 .leter .png2 {
+    width: 18.3rem;
+    height: 21.1rem;
+    background-image: url(./Rectangle\ 683.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition-duration: .5s;
+}
+
+header .footer .futer1 .color .color1 .leter .png2:hover {
+    box-shadow: 0.2rem 0.2rem 0.2rem #0A775F;
+    transition-duration: .5s;
+}
+
+header .footer .futer2 {
+    width: 63rem;
+    height: 105vh;
+    margin: auto;
+    background-color: #0A775F;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    position: relative;
+}
+
+header .footer .futer2 h1 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    color: white;
+}
+
+header .footer .futer2 .p {
+    width: 9rem;
+    height: 7rem;
+    background-image: url(./coffee-first-sticker@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1.25rem;
+    right: 2.5rem;
+}
+
+header .footer .futer2 .b {
+    width: 42.5rem;
+    height: 5rem;
+    background-image: url(./Group\ 3633.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6.5rem;
+    left: 3.5rem;
+}
+
+header .footer .futer2 .div {
+    width: 60rem;
+    height: 14.5rem;
+    margin: 6.5rem auto 0;
+    display: flex;
+}
+
+header .footer .futer2 .div .div1 {
+    width: 16rem;
+    height: 14.5rem;
+    margin: 0 2rem;
+    background-color: white;
+    padding: 1rem 0.75rem;
+    transition-duration: .3s;
+}
+
+header .footer .futer2 .div .div1:hover {
+    box-shadow: 0.3rem 0.3rem 0.2rem #C99B67;
+    transition-duration: .3;
+}
+
+header .footer .futer2 .div .div1 h2 {
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(94, 94, 94);
+}
+
+header .footer .futer2 .div .div1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 3.25rem 0 0.5rem 0;
+    text-align: start;
+}
+
+header .footer .futer2 .div .div1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75rem;
+    text-align: start;
+    color: black;
+}
+
+header .footer .futer2 a button {
+    width: 12.5rem;
+    height: 2rem;
+    margin: 1.25rem 0;
+    border: none;
+    background-color: rgb(203, 123, 25);
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    border-radius: 0.95rem;
+    transition-duration: .3s;
+}
+
+header .footer .futer2 a button:hover {
+    transition-duration: .3s;
+    box-shadow: 0 0 0.3rem 0.25rem rgb(203, 123, 25);
+    background-color: white;
+    color: rgb(203, 123, 25);
+}
+
+header .futer3 {
+    width: 100%;
+    height: 3.5rem;
+    padding: 1.5rem 0.75rem;
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header .futer3 .Start {
+    display: flex;
+    gap: 0.05rem;
+}
+
+header .futer3 .Start .f {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(./Combined\ Shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .futer3 .Start a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #555555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .futer3 .top {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header .futer3 .top a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: .5s;
+}
+
+header .futer3 .top a:hover {
+    color: #0A775F;
+    transition-duration: .5s;
+    font-size: 0.76rem;
+}
+
+header .futer3 .end {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+header .futer3 .end i:hover {
+    color: #0A775F;
+    transition-duration: .5s;
+    font-size: 1.3rem;
+}
+
+.up {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+    background-color: green;
+    padding: 0.8rem 0.9rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.5rem;
+}
